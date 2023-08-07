@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul#menu li {
+              display:inline;
+            }
+            thead{
+                 color: blue;
+            }
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+}
+            </style>
+    </head>
+    <body>
+        <div style="border: 5px solid blue; margin: 2px;">
+       <img src="C:\Users\hp\Documents\web development\irctc_logo.gif">
+       <img src="C:\Users\hp\Documents\web development\CRIS-Full.png" align="right">
+       <br/>
+       <div>
+        <nav align="right" style="background-color: blue;">
+       <ul id="menu" type=""checkbox>
+        <li ><a href="" style="color: white;">Home</a></li>
+        <li ><a href="" style="color: white;">Contact</a></li>
+        <li > </li>
+       </ul>
+    </nav>
+    </div>
+       <br/>
+       <h2>E Ticket</h2>
+       <ul>
+        <li>Register as an individual. Registration is FREE.</li>
+        <li>Login by entering your user name and password.</li>
+        <li>The "Plan my travel" page appears</li>
+        <li>If the From/To station selected by you are correct in the route of the train then :</li>
+        <li>Select e-Ticket option.</li>
+       </ul>
+        <table align="center">
+            <tr style="fill:lightskyblue; border: 1px;"> 
+                <td>Plan My jouney</td>
+                <td>Quick Book</td>
+            </tr>
+            <tr>
+                <td colspan="2">Select favourite journey list</td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="from_station">From Station*:</label>
+                </td>
+                <td><input type="text" id="from_station"></td>
+            </tr>
+            <tr>
+                <td><label for="to_station">To Station*:</label></td>
+                <td><input type="text" id="to_station"></td>
+            </tr>
+            <tr>
+                <td><label for="date" >Journey Date*:</label></td>
+                <td><input type="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="ticketType" >Ticket Type*:</label></td>
+                <td><select id="ticketType">
+                    <option>E-Ticket</option>
+                    <option>E-Ticket</option>
+                    <option>E-Ticket</option>
+                    <option>E-Ticket</option>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" value="handicap" name="handicap">I have handicap passengers</td>
+            </tr>
+            <tr>
+                <td align="center"><input type="submit" ></td>
+                <td align="center"><input type="reset" ></td>
+            </tr>
+        </table>
+        <br/>
+        <ul>
+            <li>To find train list, click on "Submit" option</li>
+            <li>The List of Trains show the number of trains available for that route.</li>
+            <li>If you wish to know the route and the timings, click on the train name under the "List of Trains" option.</li>
+            <li>To get the fare, click on class available in the selected train under "List of Trains". It will show fare according to type of class selected. The fare appearing is for a single adult Passenger and the service charges charged by IRCTC.</li>
+            <li>To select the train from the train list, click on the type of class available in the selected train.</li>
+            <li>If you will click on the class in the train list then it will show the train details with availability</li>
+            <li>To book tickets, click on "Book Now" button under availability option.</li>
+            <li>If you wish to select other train, click on "RESET" button.</li>
+        </ul>
+        <br/>
+        <center>
+        <div style="width: 80%;">
+        <nav align="center" style="background-color: blue;">Train Between Stations</nav>
+            
+            
+                <label>Select Quota:</label>
+                <input type="radio" name = "quota" value="General">General
+                <input type="radio" name = "quota" value="Physical Handicap">Physical handicap
+                <input type="radio" name = "quota" value="Ladies">Ladies
+                <label style="align-content: left;">
+                Click on the class to get availability and fare*
+            </label>
+            <table style="width: 100%;">
+            <tr>
+                <td>Train no.</td>
+                <td>Train name</td>
+                <td>From</td>
+                <td>Departure</td>
+                <td>To</td>
+                <td>Arrival</td>
+                <td>Dist.(km)</td>
+                <td>Travel Time</td>
+                <td>M</td>
+                <td>T</td>
+                <td>W</td>
+                <td>T</td>
+                <td>F</td>
+                <td>S</td>
+                <td>S</td>
+                <td>Classes</td>
+            </tr>
+            <tr>
+                <td>12904</td>
+                <td>Golden Temple ML</td>
+                <td>NZM</td>
+                <td>07:40</td>
+                <td>BCT</td>
+                <td>05:20</td>
+                <td>1377</td>
+                <td>21:40</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>1A 2A 3A SL</td>
+            </tr>
+            <tr>
+                <td>02264</td>
+                <td>DYNAMIC FARE EX</td>
+                <td>NZM</td>
+                <td>11:00</td>
+                <td>KYN</td>
+                <td>04:00</td>
+                <td>1382</td>
+                <td>17:00</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>12248</td>
+                <td>NZM BDTS YUVA</td>
+                <td>NZM</td>
+                <td>15:40</td>
+                <td>BDTS</td>
+                <td>09:20</td>
+                <td>1366</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>1A 2A 3A CC</td>
+            </tr>
+            <tr>
+                <td>22913</td>
+                <td>DYNAMIC FARE</td>
+                <td>NDLS</td>
+                <td>15:40</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>N</td>
+                <td>N</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>N</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>02952</td>
+                <td>DYNAMIC FARE</td>
+                <td>NDLS</td>
+                <td>15:40</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>12954</td>
+                <td>MUMBAI RAJDHANI</td>
+                <td>NDLS</td>
+                <td>16:30</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>1A 2A 3A</td>
+            </tr>
+            <tr>
+                <td>12954</td>
+                <td>MUMBAI RAJDHANI</td>
+                <td>NDLS</td>
+                <td>16:30</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>1A 2A 3A</td>
+            </tr>
+            <tr>
+                <td>12954</td>
+                <td>MUMBAI RAJDHANI</td>
+                <td>NDLS</td>
+                <td>16:30</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A SL</td>
+            </tr>
+            <tr>
+                <td>19020</td>
+                <td>DEHRADUN EXP</td>
+                <td>NZM</td>
+                <td>21:55</td>
+                <td>BDTS</td>
+                <td>04:20</td>
+                <td>1366</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>N</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>22914</td>
+                <td>DYNAMIC FARE</td>
+                <td>NDLS</td>
+                <td>15:40</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>02210</td>
+                <td>DYNAMIC FARE</td>
+                <td>NDLS</td>
+                <td>15:40</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>02222</td>
+                <td>DYNAMIC FARE</td>
+                <td>NDLS</td>
+                <td>15:40</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+            <tr>
+                <td>02224</td>
+                <td>DYNAMIC FARE</td>
+                <td>NDLS</td>
+                <td>15:40</td>
+                <td>BCT</td>
+                <td>08:35</td>
+                <td>1384</td>
+                <td>16:45</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>Y</td>
+                <td>2A 3A</td>
+            </tr>
+        </table>
+    </div>
+        <br/>
+        <div style="width: 80%;border:1px solid lightskyblue;"><nav align="center" style="background-color: lightblue; ">Availability Train No.:12952, class 3A, Quota:Gn</nav>
+            <br>
+            <table rules="all" border="solid" style="width: 60%; text-align: center;">
+                <tr style="background-color: lightblue;">
+                    <td>DATE</td>
+                    <td>30-01-2014</td>
+                    <td>31-01-2014</td>
+                    <td>01-02-2014</td>
+                    <td>02-02-2014</td>
+                    <td>03-02-2014</td>
+                    <td>04-02-2014</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Availability</td>
+                    <td>
+                        <pre>available-0001
+book now
+                        </pre>
+                    </td>
+                    <td>
+                        <pre>available-0002
+book now
+                    </pre>
+                    </td>
+                    <td>
+                        <pre>available-0003
+book now
+                        </pre>
+                    </td>
+                    <td>
+                        <pre>available-0004
+book now
+                        </pre>
+                    </td>
+                    <td>
+                        <pre>available-0005
+book now
+                        </pre>
+                    </td>
+                    <td>
+                        <pre>available-0006
+book now
+                        </pre>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <nav align="center" style="background-color: lightblue; ">Fare Train No.:12952, class 3A, Quota:Gn</nav>
+            <br>
+            <table rules="all" border="solid" style="width: 100%; text-align: center; padding: 2px;;">
+                <tr style="background-color: lightblue;">
+                    <td>Base Fare</td>
+                    <td>Reservation Charge</td>
+                    <td>Superfast Charges</td>
+                    <td>Other Charges</td>
+                    <td>Tatkal Charge</td>
+                    <td>Service Tax</td>
+                    <td>Catering Charges#</td>
+                    <td>Total Fare</td>
+                </tr>
+                <tr>
+                    <td>1419</td>
+                    <td>40</td>
+                    <td>45</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>56</td>
+                    <td>255</td>
+                    <td>1815</td>
+                </tr>
+            </table>
+            <nav align="right" style="color: red;">#catering charge inclusive of service tax</nav>
+            <br>
+            <table  style="width: 100%; text-align: center; padding: 2px;">
+                <tr >
+                    <td colspan="16" style="background-color: lightblue;" align="left">Train Between Stations</td>
+                </tr>
+                <tr>
+                    <td colspan="10">Select Quota:
+                        <input type="radio" name="options">General</input>
+                        <input type="radio" name="options">Physically handicap</input>
+                        <input type="radio" name="options">Ladies</input>
+                        <td colspan="6"><nav align="right" style="color: red;">Click on a class to get availability and fare<sup>*</nav></td>
+                    </td>
+                </tr>
+            </table>
+            <table rules="all" border="solid" style="align-items: center;width: 100%;">
+                <tr style="background-color: lightblue;">
+                    <td >Train no.</td>
+                    <td >Train name</td>
+                    <td >From</td>
+                    <td >Departure</td>
+                    <td >To</td>
+                    <td >Arrival</td>
+                    <td >Dist.(km)</td>
+                    <td >Travel Time</td>
+                    <td >M</td>
+                    <td >T</td>
+                    <td >W</td>
+                    <td >T</td>
+                    <td >F</td>
+                    <td >S</td>
+                    <td >S</td>
+                    <td >Classes</td>
+                </tr>
+                <tr>
+                    <td>12904</td>
+                    <td>Golden temple ml</td>
+                    <td>NZM</td>
+                    <td>7:40</td>
+                    <td>BCT</td>
+                    <td>5:20</td>
+                    <td>1377</td>
+                    <td>21:40</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>1A 2A 3A SL</td>
+                </tr>
+                <tr>
+                    <td>12904</td>
+                    <td>Golden temple ml</td>
+                    <td>NZM</td>
+                    <td>7:40</td>
+                    <td>BCT</td>
+                    <td>5:20</td>
+                    <td>1377</td>
+                    <td>21:40</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>1A 2A 3A SL</td>
+                </tr>
+                <tr>
+                    <td>12904</td>
+                    <td>Golden temple ml</td>
+                    <td>NZM</td>
+                    <td>7:40</td>
+                    <td>BCT</td>
+                    <td>5:20</td>
+                    <td>1377</td>
+                    <td>21:40</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>Y</td>
+                    <td>1A 2A 3A SL</td>
+                </tr>
+            </table></div> 
+        </center>
+        <ul>
+            <li>Ticket reservation page appears; check whether the train name and the station names displayed on the top of the page are same as desired by you</li>
+            <li>Enter the names of the Passengers, age, sex and berth preference for each Passenger. The maximum length of names should be restricted to 15 characters. If the Passenger is a senior citizen (60 years and above for male and 58 years and above for female) and wants to avail Senior Citizens' concession (40% of Base fare for male and 50% of base fare for female), click the box provided. Senior citizens are requested to carry some proof of age in original during their journey. A sample form is reproduced below. (The allotment of your required berth depends on the availability).</li>
+        </ul> 
+        <br/>
+        <center>
+            <table  border="2px" cellpadding="10" style="width: 70%;">
+                <thead>
+                    <tr >
+                        <td style="background-color: blue;color: black;"  colspan="7" >Journery Details.</td>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>Train No./Name:</td>
+                        <td>12952/MUMBAI RAJDHANI</td>
+                        <td>Journey date:</td>
+                        <td>30-Jan-2014</td>
+                        <td>Class: THIRD AC</td>
+                    </tr>
+                    <tr>
+                        <td>From Station:</td>
+                        <td>NEW DELHI - NDLS</td>
+                        <td>To Station:</td>
+                        <td>MUMBAI CENTRAL-BCT</td>
+                        <td>Quota: GENERAL</td>
+                    </tr>
+                    <tr>
+                        <td>Boarding Station: </td>
+                        <td>NEW DELHI - NDLS</td>
+                        <td>Reserv Upto Station:</td>
+                        <td>MUMBAI CENTRAL-BCT</td>
+                        <td></td>
+                    </tr>
+                </thead>
+            </table>
+            <br/>
+            <div>
+                <style>
+                    table,
+                    tr,
+                    td,
+                    th {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+                </style>
+                <table style="width: 70%;">
+                    <tr>
+                        <th colspan="7" style="background-color: blue;" align="left">Passengers Details</th>
+                    </tr>
+                    <tr style="background-color: lightskyblue;">
+                        <th>SNo</th>
+                        <th>Name*</th>
+                        <th>Age*</th>
+                        <th>Gender*</th>
+                        <th>Berth Preference</th>
+                        <th>Meal*</th>
+                        <th>Senior?</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" name="Name"  style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;" /></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Berth" style="background-color: lightskyblue;">
+                                <option value="1">Top</option>
+                                <option value="2">Middle</option>
+                                <option value="3">Bottom</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Meal" style="background-color: lightskyblue;">
+                                <option value="1">Veg</option>
+                                <option value="2">Non-veg</option>
+                                <option value="3">Special</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Senior" style="background-color: lightskyblue;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;" /></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Berth" style="background-color: lightskyblue;">
+                                <option value="1">Top</option>
+                                <option value="2">Middle</option>
+                                <option value="3">Bottom</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Meal" style="background-color: lightskyblue;">
+                                <option value="1">Veg</option>
+                                <option value="2">Non-veg</option>
+                                <option value="3">Special</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Senior" style="background-color: lightskyblue;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;" /></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Berth" style="background-color: lightskyblue;">
+                                <option value="1">Top</option>
+                                <option value="2">Middle</option>
+                                <option value="3">Bottom</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Meal" style="background-color: lightskyblue;">
+                                <option value="1">Veg</option>
+                                <option value="2">Non-veg</option>
+                                <option value="3">Special</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Senior" style="background-color: lightskyblue;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Berth" style="background-color: lightskyblue;">
+                                <option value="1">Top</option>
+                                <option value="2">Middle</option>
+                                <option value="3">Bottom</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Meal" style="background-color: lightskyblue;">
+                                <option value="1">Veg</option>
+                                <option value="2">Non-veg</option>
+                                <option value="3">Special</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Senior" style="background-color: lightskyblue;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Berth" style="background-color: lightskyblue;">
+                                <option value="1">Top</option>
+                                <option value="2">Middle</option>
+                                <option value="3">Bottom</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Meal" style="background-color: lightskyblue;">
+                                <option value="1">Veg</option>
+                                <option value="2">Non-veg</option>
+                                <option value="3">Special</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="Senior" style="background-color: lightskyblue;"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="7" style="text-align: center;"><input type="reset"
+                                value="Reset Passengers Details" style="background-color: lightskyblue;"></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <!-- ----------------------------------------------------------------------------------------------------------------- -->
+                <br><br><br>
+                <table style="border: 1px solid black; width: 70%;  padding-top: 2%;">
+                    <tr>
+                        <th colspan="4" style="background-color: blue;">Children Below 5 Years (Ticket is not to be issued)</th>
+                    </tr>
+                    <tr style="background-color: lightskyblue;">
+                        <th>SNo</th>
+                        <th>Name*</th>
+                        <th>Age*</th>
+                        <th>Gender*</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;" /></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><input type="text" name="Name" style="background-color: lightskyblue;"/></td>
+                        <td><input type="number" name="Age" style="width: 70px" style="background-color: lightskyblue;"/></td>
+                        <td>
+                            <select name="Gender" style="background-color: lightskyblue;">
+                                <option value="1">M</option>
+                                <option value="2">F</option>
+                                <option value="3">O</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: center;">
+                            <input type="reset" value="Reset Child Details" style="background-color: lightskyblue;"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+        <br/>
+        <ul>
+            <li>The ticket details, availability of tickets at the particular time and the fare, including the service charge, appear on the screen, along with the payment option Follow the instructions.</li>
+            <li>"Payment Option" Select the Payment Mode and Bank From the Drop Down List.</li>
+            <li>Click on the "Make Payment" It redirect to selected Bank Site.</li>
+        </ul>
+        <br/>
+        <center>
+            <table style="width: 60%;">
+                <th colspan="6" bgcolor="blue">Journey Details</th>
+                <tr>
+                    <td>Train No./Name: </td>
+                    <td>12952/MUMBAI RAJDHANI</td>
+                    <td>Journey date:</td>
+                    <td>30-Jan-2014</td>
+                    <td>Class:</td>
+                    <td>3A</td>
+                </tr>
+                <tr>
+                    <td>From Station:</td>
+                    <td>NEW DELHI-NDLS</td>
+                    <td>To Station:</td>
+                    <td>Mumbai Central-BCT</td>
+                    <td>Quota:</td>
+                    <td>GENERAL</td>
+                </tr>
+                <tr>
+                    <td>Boarding Station:</td>
+                    <td>New DELHI-NDLS</td>
+                    <td>Reserve Upto Station:</td>
+                    <td colspan="3">MUMBAI CENTRAL-BCT</td>
+                
+                </tr>
+            </table>
+            <br/>
+            <table style="width: 60%;">
+                <th colspan="8" bgcolor="blue">Passenger Details</th>
+                <tr style="background-color: lightskyblue;">
+                    <td>SI.No</td>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Gender</td>
+                    <td colspan="2">Berth Preference</td>
+                    <td>Meal</td>
+                    <td>Senior?</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ASHISH</td>
+                    <td>32</td>
+                    <td>male</td>
+                    <td colspan="2">LB</td>
+                    <td>veg</td>
+                    <td>No</td>
+                </tr>
+            </table>
+        </center>
+        <br/>
+        <center>
+            <div style="border: 1px solid lightskyblue; width: 60%;">
+                <br/>
+                
+                <table style="display: inline;">
+                    <th colspan="2" style="background-color: blue;">Availability Details</th>
+                    <tr>
+                        <td>Availability:</td>
+                        <td>Available-0441</td>
+                    </tr>
+                    <tr>
+                        <td>Availability At:</td>
+                        <td>Fri Jan 15:48:23 IST 2014 IST</td>
+                    </tr>
+
+                </table>
+                <table style="display: inline;">
+                    <th colspan="2" style="background-color: blue;">Fare Details</th>
+                    <tr>
+                        <td>Ticket Fare:</td>
+                        <td>Rs. 1815</td>
+                    </tr>
+                    <tr>
+                        <td>Service Charge</td>
+                        <td>Rs. 22.47</td>
+                    </tr>
+                    <tr>
+                        <td>Total Fare:</td>
+                        <td>Rs. 1837.47</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">* Ticket fare includes Service Tax of Rs. 56</td>
+                    </tr>
+                </table>
+                <br/>
+            </div>
+        </center>
+        <ul>
+            <li>After successful payment and booking of accommodations, the User is shown the ticket confirmation details along with a “Print Reservation Slip” Button. On clicking the button ERS is shown with an option to print</li>
+            <li>The customer can subsequently also print Electronic Reservation Slip from the 'BOOKED TICKETS' link on the left navigation bar.</li>
+        </ul>
+        <br/>
+        <p style="color: blue;">Congratulations!,You have successfully booked a ticket. Please print the ERS and carry it along with a relevent photo ID card while travelling</p>
+        <div style="border: 1px solid lightskyblue; width: 60%;">
+            <nav align="left" style="background-color: lightskyblue;">Ticket Details</nav>
+            <br/>
+            <table style="width: 98%;" align="center">
+                <tr>
+                 <td>Transaction ID : 20000000014834308</td>
+                 <td>PNR No : 2433499211</td>
+                 <td>Train No. Name : 12952/Mumbai Rajdhani</td>
+                </tr>
+                <tr>
+                <td>Date of Booking : 24-Jan-2014</td>
+                <td>Class THIRD AC</td>
+                <td>Quota: GENERAL</td>
+                </tr>
+                <tr>
+                <td>Date of Journey:30-Jan-2014</td>
+                <td>From:NDLS</td>
+                <td>To:BCT</td>
+                </tr>
+                <tr>
+                <td>Boarding At: NDLS</td>
+                <td>Date of Boarding: 30-Jan-2014</td>
+                <td>Reservation Upto:BCT</td>
+                </tr>
+                <tr>
+                <td>Distance:1384 KM</td>
+                <td>Schedule Departure:16:30</td>
+                <td>Schedule Arrival: 31-Jan-2014(08:35 Hrs)</td>
+                </tr>
+                <tr>
+                <td>Total Fare : Rs. 1815 & SC: RS. 22.47</td>
+                <td> Adult : 1& Child : 0</td>
+                </tr> 
+
+            </table>
+            </div>
+            <div style="border: 1px solid lightskyblue ; width: 60%;">
+            <nav align="left" style="background-color: lightskyblue;">Details of Passengers</nav>
+            <br/>
+            <table style="width: 98%;" align="center"> 
+                <tr style="background-color: lightskyblue;">
+                    <td>SI. No.</td>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Gender</td>
+                    <td>Meal</td>
+                    <td>Concession</td>
+                    <td>Status</td>
+                    <td>Coach</td>
+                    <td>Seat/Berth/WL No</td>
+                    <td>Current Status</td>
+                    <td>Coach</td>
+                    <td>seat/Berth/WL No</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ASHISH</td>
+                    <td>32</td>
+                    <td>Male</td>
+                    <td>Veg</td>
+                    <td></td>
+                    <td>CNF</td>
+                    <td>B3</td>
+                    <td>65(LB)</td>
+                    <td>CNF</td>
+                    <td>B3</td>
+                    <td>65(LB)</td>
+                </tr>
+            </table>
+            <br/>
+            <center>
+            <input type="button" value="Print ERS (English)"  style="background-color: blue;color: white;"/>
+            <input type="button" value="Print ERS (Hindi)" style="background-color: blue;color: white;"/>
+        </center>
+        <br/>
+        <center>
+            <input type="button" value="Book Return Ticket"  style="background-color: lightskyblue;color: white;"/>
+            <input type="button" value="Book Another Ticket" style="background-color: lightskyblue;color: white;"/>
+        </center>
+        <br/>
+        </div>
+        <br/>
+        
+        <br/>
+        <div style="border: 1px solid black; margin: 3px;">
+            <p align="center"><strong><u>Indian Railways</u></strong></p>
+            <p align="center"><strong><u>Electronic Reservation Slip(Personal User)</u></strong></p>
+            <ul>
+                <li>This ticket will only be available with an ID proof n original provided at the time of booking by the passenger(s). If found travelling without ID proof, passenger(s) will be treated as without ticket and charged as per extant railway rules.</li>
+                <li>If the passenger whose Id card no. is indicated on the ERS/VRM is not travelling, all other paseenger(s) booked on that ticket, if found travelling in train will be treated as travelling without ticket and charged accordingly.</li>
+                <li>Valid IDs to be presented during train journey on an e-ticket:- Voter Identity Card/Passport/PaN Card/Driving license/Photo ID card issued by Central/State Govt./Public sector Understanding of State/Central Government/District Administrations/Municipal Bodies/Panchayat Administrations/Student Identity Card with photograph issued by recognised School or College for their Students/National Book Passbook with photograph/Credit Card issued by Banks with laminated photographs/Unique Identification Cards "Aadhaar".</li>
+                <li>Genral rules/Information for e-ticket passenger have to be studied by the customer for cancellation & refund.</li>
+            </ul>
+            <table align="center" style="width: 95%;">
+              <tr>
+                <td>Cancellation ID:</td>
+                <td>100000000544859</td>
+                <td>PNR No:</td>
+                <td>2661894420</td>
+              </tr>
+              <tr>
+                <td>
+                    <pre>Train Name and No:
+Class:</pre>
+                </td>
+                <td><pre>KARNATAKA EXP/12628
+SLEEPER CLASS(SL)
+                    </pre></td>
+                <td><pre>Date of Journey:
+Date of Booking:
+                    </pre></td>
+                <td><pre>01-Feb-2014
+30-Jan-2014 16:28:10 HRS
+                    </pre></td>
+              </tr>
+              <tr>
+                <td>Date of Boarding:</td>
+                <td>01-Feb-2014</td>
+                <td>Distance:</td>
+                <td>2460 KMS</td>
+              </tr>
+              <tr>
+                <td>From</td>
+                <td>NEW DELHI(NDLS)</td>
+                <td>To:</td>
+                <td>MUMBAI CENTRAL(BCT)</td>
+              </tr>
+              <tr>
+                <td>Boarding At:</td>
+                <td>NEW DELHI(NDLS)</td>
+                <td>Reservation Upto:</td>
+                <td>MUMBAI CENTRAL(BCT)</td>
+              </tr>
+              <tr>
+                <td>Schedule Departure</td>
+                <td>01-FRb-2014 21:15:00 HRS</td>
+                <td>Schedule Arrival:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Adult</td>
+                <td>1</td>
+                <td>Children:</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>Quota:</td>
+                <td>GENERAL(GN)</td>
+                <td>Passenger Mobile No:</td>
+                <td>9915562485</td>
+              </tr>
+              <tr>
+                <td>Passenger Address:</td>
+                <td colspan="3">wqqwwq, South West Delhi, DELHI-110021</td>
+                
+              </tr>
+              <tr>
+                <td>Date of Cancellation</td>
+                <td colspan="3">30-Jan-2014 16:31:52 HRS</td>
+              </tr>
+              <tr>
+                <td>Note:-</td>
+                <td colspan="3"></td>
+              </tr>  
+            </table>
+            <p><b>FARE DETAILS:</b></p>
+            <table style="width: 98%;" align="center">
+             <tr>
+                <td>Ticket Fare</td>
+                <td>Rs. 1815.0 Rupees One Thousand Eight Hundred and Fifteen Only</td>
+                    <td>
+                    <table>
+                        <tr>
+                            <td colspan="3">Ticket Fare includes:</td>
+                        </tr>
+                        <tr>
+                            <td>Reservation Fee</td>
+                            <td>rs. 40.0</td>
+                            <td>Rupees Forty Only</td>
+                        </tr>
+                        <tr>
+                            <td>Superfast Charge</td>
+                            <td>Rs. 45.0</td>
+                            <td>Rupees Forty Five Only</td>
+                        </tr>
+                        <tr>
+                            <td>Service Tax</td>
+                            <td>Rs 56.0</td>
+                            <td>Rupees Fifty Six Only</td>
+                        </tr>
+                    </table>
+                </td>
+                
+             </tr>
+             <tr>
+                <td>IRCTC Service Charge (incl. of Service Tax)</td>
+                <td colspan="2">Rs. 22.47 Rupees Twenty Two and Four SEven Paisa Only</td>
+             </tr>
+             <tr>
+                <td>Total Fare(all inclusive)</td>
+                <td colspan="2">Rs. 1837.47 Rupees One Thousand Eight Hundred and Thirty Seven and Four Seven Paisa Only</td>
+             </tr> 
+            </table>
+            <p>PASENGER DETAILS:</p>
+            <table style="width: 98%;" align="center">
+               <tr>
+                <td>SNo.</td>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Gender</td>
+                <td>Food Choices</td>
+                <td>Booking Status</td>
+                <td>Current Status</td>
+               </tr>
+               <tr>
+                <td>1</td>
+                <td>ABC Singh</td>
+                <td>29</td>
+                <td>Male</td>
+                <td>VEG</td>
+                <td>CNF/S3/1/LOWER</td>
+                <td>CAN</td>
+               </tr> 
+            </table>
+            <p>Ticket Printing Time: 30-Jan-2014 16:33:08 HRS</p>
+            <p>IMPORTANT:</p>
+            <ul>
+                <li>For details, rules and terms & conditions of E-ticketing services, please visit www.indianrail.gov.in.</li>
+                <li>The accomodation booked is not transferable and is valid only if the ID card printed during the journey. The ERS/VRM along with printed ID proof in original will be modified by TTE with the name and PNR on the chart. If the passenger fail to produce/display ERS/VRM due to any eventuality(loss, damaged mobile/laptop etc) but has the prescribed original proof of identuty, a penalty of Rs.50/- per ticket as applied to some cases will be leived. The ticket checking staff On board/Off board will give Excess Fare Ticket for the same.</li>
+                <li>Obtain certificate from the TTE/Conductor in case of PARTIALLY waitlisted e-ticket, LESS NO. OF PASSENGER travelled, A>C>FAILURE, TRAVEL IN LOWER CLASS. This originl certificate must be sent to GGM(IT),CRIS Internet Ticketing Center, IRCA Building State Entry Road, New Delhi-110055 after filing on-line refund request for claiming refund. </li>
+                <li>Contact us on:-24*7 Hrs Customer Support at 011-24670239,Chennai Customer Care 044-25330893 or Mail To:www.indianrail.gov.in.</li>
+            </ul>
+            <center>
+            <input type="button" value="Print"/>
+            <br/>
+            <br/>
+            </center>
+        </div>
+        <br/>
+        <h2>CANCELLATION OF e-TICKET - A GUIDE</h2>
+        <ul>
+            <li>If user wishes to cancel his e-ticket GO TO 'My Transactions' and Click 'Booked Ticket History' link on the menu bar, select the ticket to be cancelled and click on 'Go For Cancellation' and can initiate the cancellation by selecting the passengers to be cancelled</li>
+        </ul>
+        <br/>
+        <center>
+            <div style="border-right: 1px solid lightskyblue; width: 60%;padding-top: 0%; margin-top: 0%;">
+                <p align="left" style="background-color:rgb(84, 175, 227);">Booked Ticket History</p>
+                <table  style=" width: 98%;padding: 2%;" >
+                    <tr>
+                        <td>PNR NUMBER:</td>
+                        <td><input type="text"></td>
+                        <td>TRANSACTION ID:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>FROM STATION:</td>
+                        <td><input type="text"></td>
+                        <td>TO STATION:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>JOURNEY DATE:</td>
+                        <td colspan="3"><input type="date" id="date"></td>
+                    </tr>
+                </table>
+                <br>
+                <table align="right">
+                    <tr>
+                        <td colspan="6" align="center">E-Ticket</td>
+                        <td align="center"><button>I-Ticket</button></td>
+                    </tr>
+                </table>
+                <br>
+                <table rules="all"  style="width: 98%;">
+                    <tr>
+                        <td colspan="10" style="background-color: rgb(84, 175, 227);">Booked tickets</td>
+                    </tr>
+                    <tr style="background-color: rgb(197, 213, 225);">
+                        <td>Select</td>
+                        <td>S No</S></td>
+                        <td>Transaction Id</td>
+                        <td>PNR No.</td>
+                        <td>Train No.</td>
+                        <td>From</td>
+                        <td>To</td>
+                        <td>Date of Journey</td>
+                        <td>Reservation Status</td>
+                        <td>Date Of Booking</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"></td>
+                        <td>1</td>
+                        <td>200000000045627</td>
+                        <td>3648732643248</td>
+                        <td>12722</td>
+                        <td>AGC</td>
+                        <td>NGP</td>
+                        <td>05-FEB-2014</td>
+                        <td>Cancelled</td>
+                        <td>27-JAN-2014</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"></td>
+                        <td>2</td>
+                        <td>200000000045627</td>
+                        <td>3648732643248</td>
+                        <td>12722</td>
+                        <td>AGC</td>
+                        <td>NGP</td>
+                        <td>05-FEB-2014</td>
+                        <td>Cancelled</td>
+                        <td>27-JAN-2014</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"></td>
+                        <td>3</td>
+                        <td>200000000045627</td>
+                        <td>3648732643248</td>
+                        <td>12722</td>
+                        <td>AGC</td>
+                        <td>NGP</td>
+                        <td>05-FEB-2014</td>
+                        <td>Cancelled</td>
+                        <td>27-JAN-2014</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"></td>
+                        <td>4</td>
+                        <td>200000000045627</td>
+                        <td>3648732643248</td>
+                        <td>12722</td>
+                        <td>AGC</td>
+                        <td>NGP</td>
+                        <td>05-FEB-2014</td>
+                        <td>Cancelled</td>
+                        <td>27-JAN-2014</td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio"></td>
+                        <td>5</td>
+                        <td>200000000045627</td>
+                        <td>3648732643248</td>
+                        <td>12722</td>
+                        <td>AGC</td>
+                        <td>NGP</td>
+                        <td>05-FEB-2014</td>
+                        <td>Cancelled</td>
+                        <td>27-JAN-2014</td>
+                    </tr>
+                </table>
+                <table align="Left">
+                    <tr>
+                        <td  colspan="10" align="center"><button style="background-color:rgb(84, 175, 227) ;">>>>></button><button style="background-color:rgb(84, 175, 227) ;">>>>>>>></button></td>
+                    </tr>
+                    <BR>
+                </table>
+                <table align="right" style="display: inline-block;">
+                    <tr>
+                        <td colspan="10" align="center"><button style="background-color:rgb(84, 175, 227) ;">Cancel Ticket</button><button style="background-color:rgb(84, 175, 227) ;">Get PNR</button>
+                        <button style="background-color:rgb(84, 175, 227) ;">PRINT E-TICKET</button><button style="background-color:rgb(84, 175, 227) ;">GET SMS</button></td>
+                    </tr>
+                    <BR>
+                </table>
+                <br>
+                <br>
+            </div>
+        </center>
+        <ul>
+            <li>User has to select only those passangers who are to be cancelled in case of partial cancellation of ticket. in case of partial cancellation the passanger should get a fresh printout of the ERS for the passangers continuing their journey.</li>
+        </ul>
+        <center>
+        <div align="center" style="border-right: 2px solid grey; width: 50%;padding-top: 0%; margin-top: 0%;">
+            <nav align="left" style="background-color: rgb(84, 175, 227);color: white;">Cancellation Request</nav>
+            <br>
+            <table style="border: solid;width:98%">
+                <tr>
+                    <td colspan="4" style="background-color: rgb(84, 175, 227);">Book Ticket  Details</td>
+                </tr>
+                <tr>
+                    <td>Transaction Id:</td>
+                    <td>100000000544859</td>
+                    <td>PNR:</td>
+                    <td>2661894420</td>
+                </tr>
+                <tr>
+                    <td>Train no.</td>
+                    <td>12686</td>
+                    <td>Train Name:</td>
+                    <td>KARNATAKA EXPRESS</td>
+                </tr>
+                <tr>
+                    <td>Date Of Journey:</td>
+                    <td>01-FEB-2014</td>
+                    <td>Date Of Cancellation:</td>
+                    <td>30-JAN-2014</td>
+                </tr>
+                <tr>
+                    <td>From</td>
+                    <td>NDLS</td>
+                    <td>To</td>
+                    <td>SBS</td>
+                </tr>
+                <tr>
+                    <td>Quota</td>
+                    <td>GENERAL(GN)</td>
+                    <td>Class</td>
+                    <td>SL</td>
+                </tr>
+                <tr>
+                    <td>Boarding At</td>
+                    <td>NDLS</td>
+                    <td>Reservation Upto</td>
+                    <td>SBS</td>
+                </tr>
+                <tr>
+                    <td>Departure Date Time</td>
+                    <td>21:15</td>
+                    <td>Arrival Date Time</td>
+                    <td>13:40</td>
+                </tr>
+                <tr>
+                    <td>BOOKING AMOUNT</td>
+                    <td colspan="3">715</td>
+                </tr>
+                <br>
+
+            </table>
+            <table rules="all" style="width:98%; align-items: center;">
+                <tr>
+                    <td colspan="7" style="background-color: rgb(84, 175, 227);">Passengers</td>
+                </tr>
+                <tr>
+                    <td align="center">S.NO</td>
+                    <td align="center">NAME</td>
+                    <td align="center">AGE</td>
+                    <td align="center">GENDER</td>
+                    <td align="center">BOOKING STATUS</td>
+                    <td align="center">CURRENT STATUS</td>
+                    <td align="center">SELECT</td>
+                </tr>
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">ABC SINGH</td>
+                    <td align="center">20</td>
+                    <td align="center">M</td>
+                    <td align="center">CNF/S3/1/LB</td>
+                    <td align="center">CNF/</td>
+                    <td align="center"><input type="checkbox"></td>
+                </tr>
+                <br>
+            </table>
+            <br>
+            <table align="right">
+                <tr>
+                    <td colspan="6" align="center"><button>Cancel Ticket</button></td>
+                    <td align="center"><button>Close</button></td>
+                </tr>
+            </table>
+            <BR>
+            <br>
+        </div>
+        <br/>
+        </center>
+        <center>
+        <img src="C:\Users\hp\Documents\web development\canceleticket4.jpg" >
+        </center>
+        <br/>
+        <ul>
+            <li>If the ticket is partially cancelled, a fresh Electronic Reservation Slip needs to be carried by the Passenger</li>
+        </ul>
+        <table align="center" style="width: 60%;">
+            <th bgcolor="lightskyblue" colspan="4" align="left">
+                Cancellation Details
+            </th>
+            <tr>
+                <td>Cancellation ID</td>
+                <td>100000000544859</td>
+                <td>PNR Number</td>
+                <td>26619834554</td>
+            </tr>
+            <tr>
+                <td>Train Number</td>
+                <td>12628</td>
+                <td>Train Name</td>
+                <td>KARNATAKA EXP</td>
+            </tr>
+            <tr>
+                <td>Date of Journey</td>
+                <td>01-Feb-2014</td>
+                <td>Date of Cancellation</td>
+                <td>30-Jan-2014 16-31-52 PM</td>
+            </tr>
+            <tr>
+                <td>From</td>
+                <td>NDLS</td>
+                <td>To</td>
+                <td>SBC</td>
+            </tr>
+            <tr>
+                <td>Quota</td>
+                <td>GENERAL(GN)</td>
+                <td>Class</td>
+                <td>SL</td>
+            </tr>
+            <tr>
+                <td>Boarding At</td>
+                <td>NDLS</td>
+                <td>Reservation Upto</td>
+                <td>SBC</td>
+            </tr>
+            <tr>
+                <td>Departure Date Time</td>
+                <td>21:15</td>
+                <td>Arrival Date Time</td>
+                <td>13:40</td>
+            </tr>
+            <tr>
+                <td>Booking Amount</td>
+                <td>715</td>
+                <td>Cancellation Charges</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Refund Amount</td>
+                <td>655</td>
+                <td>No. of Cancelled Passengers</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <br/>
+        <hr>
+        <div style="border: 1px solid black; margin: 3px;">
+            <p align="center"><strong><u>Indian Railways</u></strong></p>
+            <p align="center"><strong><u>Electronic Cancellation Slip(Personal User)</u></strong></p>
+            <ul>
+                <li>This ticket will only be available with an ID proof n original provided at the time of booking by the passenger(s). If found travelling without ID proof, passenger(s) will be treated as without ticket and charged as per extant railway rules.</li>
+                <li>If the passenger whose Id card no. is indicated on the ERS/VRM is not travelling, all other paseenger(s) booked on that ticket, if found travelling in train will be treated as travelling without ticket and charged accordingly.</li>
+                <li>Valid IDs to be presented during train journey on an e-ticket:- Voter Identity Card/Passport/PaN Card/Driving license/Photo ID card issued by Central/State Govt./Public sector Understanding of State/Central Government/District Administrations/Municipal Bodies/Panchayat Administrations/Student Identity Card with photograph issued by recognised School or College for their Students/National Book Passbook with photograph/Credit Card issued by Banks with laminated photographs/Unique Identification Cards "Aadhaar".</li>
+                <li>Genral rules/Information for e-ticket passenger have to be studied by the customer for cancellation & refund.</li>
+            </ul>
+            <table align="center" style="width: 95%;">
+              <tr>
+                <td>Cancellation ID:</td>
+                <td>100000000544859</td>
+                <td>PNR No:</td>
+                <td>2661894420</td>
+              </tr>
+              <tr>
+                <td>
+                    <pre>Train Name and No:
+Class:</pre>
+                </td>
+                <td><pre>KARNATAKA EXP/12628
+SLEEPER CLASS(SL)
+                    </pre></td>
+                <td><pre>Date of Journey:
+Date of Booking:
+                    </pre></td>
+                <td><pre>01-Feb-2014
+30-Jan-2014 16:28:10 HRS
+                    </pre></td>
+              </tr>
+              <tr>
+                <td>Date of Boarding:</td>
+                <td>01-Feb-2014</td>
+                <td>Distance:</td>
+                <td>2460 KMS</td>
+              </tr>
+              <tr>
+                <td>From</td>
+                <td>NEW DELHI(NDLS)</td>
+                <td>To:</td>
+                <td>BANGLORE CY JN(SBC)</td>
+              </tr>
+              <tr>
+                <td>Boarding At:</td>
+                <td>NEW DELHI(NDLS)</td>
+                <td>Reservation Upto:</td>
+                <td>BANGLORE CY JN(SBC)</td>
+              </tr>
+              <tr>
+                <td>Schedule Departure</td>
+                <td>01-FRb-2014 21:15:00 HRS</td>
+                <td>Schedule Arrival:</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Adult</td>
+                <td>1</td>
+                <td>Children:</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>Quota:</td>
+                <td>GENERAL(GN)</td>
+                <td>Passenger Mobile No:</td>
+                <td>9915562485</td>
+              </tr>
+              <tr>
+                <td>Passenger Address:</td>
+                <td colspan="3">wqqwwq, South West Delhi, DELHI-110021</td>
+                
+              </tr>
+              <tr>
+                <td>Date of Cancellation</td>
+                <td colspan="3">30-Jan-2014 16:31:52 HRS</td>
+              </tr>
+              <tr>
+                <td>Note:-</td>
+                <td colspan="3"></td>
+              </tr>  
+            </table>
+            <p><b>FARE DETAILS:</b></p>
+            <table style="width: 98%;" align="center">
+             <tr>
+                <td>Total Collected Fare</td>
+                <td>715.0</td>
+                <td>Rupees Seven Hundred and Fifteen Only</td>
+             </tr>
+             <tr>
+                <td>Cancellation Fee</td>
+                <td>60.0</td>
+                <td>Rupees Sixty Only</td>
+             </tr>
+             <tr>
+                <td>Total Refund Amount</td>
+                <td>655.0</td>
+                <td>Rupees Six Hundred and Fifty Five Only</td>
+             </tr>   
+            </table>
+            <p>PASENGER DETAILS:</p>
+            <table style="width: 98%;" align="center">
+               <tr>
+                <td>SNo.</td>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Gender</td>
+                <td>Booking Status</td>
+                <td>Current Status</td>
+               </tr>
+               <tr>
+                <td>1</td>
+                <td>ABC Singh</td>
+                <td>29</td>
+                <td>Male</td>
+                <td>CNF/S3/1/LOWER</td>
+                <td>CAN</td>
+               </tr> 
+            </table>
+            <p>Ticket Printing Time: 30-Jan-2014 16:33:08 HRS</p>
+            <p>IMPORTANT:</p>
+            <ul>
+                <li>For details, rules and terms & conditions of E-ticketing services, please visit www.indianrail.gov.in.</li>
+                <li>The accomodation booked is not transferable and is valid only if the ID card printed during the journey. The ERS/VRM along with printed ID proof in original will be modified by TTE with the name and PNR on the chart. If the passenger fail to produce/display ERS/VRM due to any eventuality(loss, damaged mobile/laptop etc) but has the prescribed original proof of identuty, a penalty of Rs.50/- per ticket as applied to some cases will be leived. The ticket checking staff On board/Off board will give Excess Fare Ticket for the same.</li>
+                <li>Obtain certificate from the TTE/Conductor in case of PARTIALLY waitlisted e-ticket, LESS NO. OF PASSENGER travelled, A.C.FAILURE, TRAVEL IN LOWER CLASS. This originl certificate must be sent to GGM(IT),CRIS Internet Ticketing Center, IRCA Building State Entry Road, New Delhi-110055 after filing on-line refund request for claiming refund. </li>
+                <li>Contact us on:-24*7 Hrs Customer Support at 011-24670239,Chennai Customer Care 044-25330893 or Mail To:www.indianrail.gov.in.</li>
+            </ul>
+            <center>
+            <input type="button" value="Print"/>
+            <br/>
+            <br/>
+            </center>
+        </div>
+        <br/>
+        <br/>
+        </div>
+    </body>
+</html>
